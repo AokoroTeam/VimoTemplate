@@ -1,0 +1,3 @@
+[submodule "Assets/RealitPackage"]
+	path = Assets/RealitPackage
+	url = https://github.com/AokoroTeam/RealitPackage
