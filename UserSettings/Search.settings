@@ -1,4 +1,5 @@
 trackSelection = true
+refreshSearchWindowsInPlayMode = false
 fetchPreview = true
 defaultFlags = 0
 keepOpen = false
@@ -30,7 +31,13 @@ scopes = {
 	"currentGroup.DA949528" = "all"
 	"last_search.110DEAF1" = "p(m_mesh):pb"
 	"OpenInspectorPreview.110DEAF1" = "1"
-	"currentGroup.110DEAF1" = ""
+	"currentGroup.110DEAF1" = "asset"
+	"last_search.E8DA15E5" = "p(m_mesh):pb"
+	"OpenInspectorPreview.E8DA15E5" = "1"
+	"currentGroup.E8DA15E5" = "asset"
+	"last_search.3BE40471" = "p(m_mesh):pb"
+	"OpenInspectorPreview.3BE40471" = "1"
+	"currentGroup.3BE40471" = "scene"
 }
 providers = {
 	adb = {
@@ -98,6 +105,11 @@ providers = {
 		priority = 85
 		defaultAction = null
 	}
+	profilermarkers = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
 }
 objectSelectors = {
 }
@@ -126,8 +138,11 @@ searchItemFavorites = [
 ]
 savedSearchesSortOrder = 0
 showSavedSearchPanel = true
+hideTabs = false
 expandedQueries = [-1765347274 961552606]
 queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"
 disabledIndexers = ""
+minIndexVariations = 2
+findProviderIndexHelper = true
