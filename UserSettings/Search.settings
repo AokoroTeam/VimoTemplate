@@ -31,7 +31,7 @@ scopes = {
 	"currentGroup.DA949528" = "all"
 	"last_search.110DEAF1" = "p(m_mesh):pb"
 	"OpenInspectorPreview.110DEAF1" = "1"
-	"currentGroup.110DEAF1" = "asset"
+	"currentGroup.110DEAF1" = "scene"
 	"last_search.E8DA15E5" = "p(m_mesh):pb"
 	"OpenInspectorPreview.E8DA15E5" = "1"
 	"currentGroup.E8DA15E5" = "asset"
@@ -114,6 +114,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	""
 	"p(m_mesh):pb"
 	"Line002-POLY_REDUCED"
 	"p(m_mesh):pbp(m_mesh):pb"
@@ -132,7 +133,6 @@ recentSearches = [
 	"p(m_Mesh):pb_Mesh2"
 	"p(m_Mesh):Mesh174202"
 	"p:Assets/Data/Meshes/*.png "
-	"m_Mesh"
 ]
 searchItemFavorites = [
 ]
@@ -142,7 +142,7 @@ hideTabs = false
 expandedQueries = [-1765347274 961552606]
 queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
-helperWidgetCurrentArea = "all"
+helperWidgetCurrentArea = "find:"
 disabledIndexers = ""
 minIndexVariations = 2
 findProviderIndexHelper = true
