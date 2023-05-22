@@ -37,7 +37,7 @@ scopes = {
 	"currentGroup.E8DA15E5" = "asset"
 	"last_search.3BE40471" = "p(m_mesh):pb"
 	"OpenInspectorPreview.3BE40471" = "1"
-	"currentGroup.3BE40471" = "asset"
+	"currentGroup.3BE40471" = "scene"
 }
 providers = {
 	adb = {
