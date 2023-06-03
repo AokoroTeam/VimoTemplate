@@ -415,7 +415,7 @@ namespace BuildReportTool
 #elif UNITY_2019_3_OR_NEWER
 			settings.EnableVirtualRealitySupport = UnityEngine.XR.XRSettings.enabled;
 #endif
-
+			/*
 			// collect all aspect ratios
 			UnityEditor.AspectRatio[] aspectRatios =
 			{
@@ -438,8 +438,8 @@ namespace BuildReportTool
 			{
 				aspectRatiosList.Add("none");
 			}
-
 			settings.AspectRatiosAllowed = aspectRatiosList.ToArray();
+			*/
 
 #if !UNITY_5_1_AND_LESSER // 5.2 and greater
 			settings.GraphicsAPIsUsed = PlayerSettings.GetGraphicsAPIs(EditorUserBuildSettings.activeBuildTarget)
