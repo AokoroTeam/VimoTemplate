@@ -1,0 +1,8 @@
+newmtl M_Ceiling
+Kd 0.8240522 0.8240522 0.8240522
+d 1
+
+newmtl M_BlackDope
+Kd 0.2199937 0.2199937 0.2199937
+d 1
+
