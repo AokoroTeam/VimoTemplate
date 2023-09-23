@@ -7,6 +7,8 @@
   <CalculateAssetDependenciesOnUnusedToo>false</CalculateAssetDependenciesOnUnusedToo>
   <CollectTextureImportSettings>true</CollectTextureImportSettings>
   <CollectTextureImportSettingsOnUnusedToo>false</CollectTextureImportSettingsOnUnusedToo>
+  <CollectMeshData>true</CollectMeshData>
+  <CollectMeshDataOnUnusedToo>false</CollectMeshDataOnUnusedToo>
   <GetProjectSettings>true</GetProjectSettings>
   <IncludeUsedAssetsInReportCreation>true</IncludeUsedAssetsInReportCreation>
   <IncludeUnusedAssetsInReportCreation>false</IncludeUnusedAssetsInReportCreation>
@@ -50,8 +52,16 @@
   <ShowTextureColumnCompressionQuality>true</ShowTextureColumnCompressionQuality>
   <ShowTextureColumnImportedWidthAndHeight>true</ShowTextureColumnImportedWidthAndHeight>
   <ShowTextureColumnRealWidthAndHeight>false</ShowTextureColumnRealWidthAndHeight>
+  <FileFilterNameForMeshData>Models</FileFilterNameForMeshData>
+  <ShowMeshColumnMeshFilterCount>false</ShowMeshColumnMeshFilterCount>
+  <ShowMeshColumnSkinnedMeshRendererCount>false</ShowMeshColumnSkinnedMeshRendererCount>
+  <ShowMeshColumnSubMeshCount>true</ShowMeshColumnSubMeshCount>
+  <ShowMeshColumnVertexCount>false</ShowMeshColumnVertexCount>
+  <ShowMeshColumnTriangleCount>true</ShowMeshColumnTriangleCount>
+  <ShowMeshColumnAnimationType>false</ShowMeshColumnAnimationType>
+  <ShowMeshColumnAnimationClipCount>true</ShowMeshColumnAnimationClipCount>
   <ShowColumnAssetPath>false</ShowColumnAssetPath>
-  <ShowColumnSizeBeforeBuild>false</ShowColumnSizeBeforeBuild>
+  <ShowColumnSizeBeforeBuild>true</ShowColumnSizeBeforeBuild>
   <ShowColumnSizeInBuild>true</ShowColumnSizeInBuild>
   <ShowColumnUnusedRawSize>false</ShowColumnUnusedRawSize>
   <ShowColumnUnusedImportedSize>false</ShowColumnUnusedImportedSize>
@@ -62,6 +72,7 @@
   <LogMessagePaginationLength>100</LogMessagePaginationLength>
   <FilterToUseInt>0</FilterToUseInt>
   <AssetListPaginationLength>300</AssetListPaginationLength>
+  <ProcessUnusedAssetsInBatches>true</ProcessUnusedAssetsInBatches>
   <UnusedAssetsEntriesPerBatch>1000</UnusedAssetsEntriesPerBatch>
   <DoubleClickOnAssetWillPing>false</DoubleClickOnAssetWillPing>
   <AssetUsageLabelType>0</AssetUsageLabelType>
